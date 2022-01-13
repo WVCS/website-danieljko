@@ -3,7 +3,7 @@ background-color:#f4f1de
 
 ul {
   list-style-type: none;
-  text-color: #000000;
+  text-color: #6D6466;
   background-color: #6D6466;
   width: 100%;
   overflow: hidden;
@@ -17,25 +17,46 @@ ul {
 li{
   float: left;
   text-color: black;
-
 }
-li a:hover {
-  background-color: #A7A0A1;
-  color: purple;
+
+body {
+background-color:#f4f1de
+}
+
+ul {
+  list-style-type: none;
+  text-color: #6D6466;
+  background-color: #6D6466;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  text-align: center; 
+  left: 0;
+  top: 0;
+  margin: 0;
+}
+
+li{
+  float: left;
   text-color: black;
 }
- 
+
 li a {
   font-family: "Arial";
   display: block;
-  color: black;
+  color: white;
   text-decoration: none;
   padding: 15px 50px;
   border-style: hidden;
   border-color: black;
 }
+li a:hover {
+  background-color: #A7A0A1;
+  color: white;
+  text-color: black;
+}
 
-h1{ 
+h1{ /*this edits "Cooper Jumamil's Website"*/
   text-align: center;
 }
 
@@ -51,3 +72,6 @@ img {
   border: 10px solid #6D6466;
   padding: 10px;
   margin-left: 450px;
+
+
+
