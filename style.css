@@ -16,15 +16,15 @@ ul {
 
 li{
   float: left;
-  text-color: white;
+  text-color: black;
 
 }
 li a:hover {
   background-color: #A7A0A1;
-  color: white;
+  color: black;
   text-color: black;
 }
-
+ 
 li a {
   font-family: "Arial";
   display: block;
