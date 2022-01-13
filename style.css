@@ -1,40 +1,52 @@
-body {
-background-color:#A599B5; 
+background-color:#f4f1de
 }
-ul{
-  list-style-type: none; 
-  background-color: none;
-  width: 100%; 
-  overflow: hidden; 
-  position: fixed; 
+
+ul {
+  list-style-type: none;
+  text-color: #6D6466;
+  background-color: #6D6466;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
   text-align: center; 
   left: 0;
-  top: 0; 
-  margin: 0; 
+  top: 0;
+  margin: 0;
 }
+
 li{
   float: left;
+  text-color: white;
 }
-li a{
-  font-size: 23px;
+
+li a {
+  font-family: "Georgia";
   display: block;
-  color: white; 
-  text-decoration: none; 
-  padding: 15px 50px;
-  border-style: none; 
-  font-family: "Courier New"; 
-}
-li a:hover{
-  background-color: antiquewhite; 
-  color: black;
-}
-h1 {
-  font-family: "Nunito";
   color: white;
-  font-size: 30px;
+  text-decoration: none;
+  padding: 15px 50px;
+  border-style: hidden;
+  border-color: black;
 }
-center {
-  font-size: 70px; 
-  color: white; 
-  font-family: "Nunito"; 
+li a:hover {
+  background-color: #A7A0A1;
+  color: white;
+  text-color: white;
 }
+
+h1{ /*this edits "Cooper Jumamil's Website"*/
+  text-align: center;
+}
+
+p{
+  text-align: center;
+  font-size: 50px;
+  border-style: double;
+}
+
+img {
+  margin: auto;
+  width: 50%;
+  border: 10px solid #6D6466;
+  padding: 10px;
+  margin-left: 450px;
